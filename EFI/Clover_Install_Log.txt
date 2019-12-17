@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Wed Oct  9 15:05:41 EEST 2019
+Installer version: v2.5k r5093 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         104.9 GB   disk0s2
+   3:       Microsoft Basic Data                         308.4 GB   disk0s3
+   4:                 Apple_APFS Container disk1         86.6 GB    disk0s4
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +86.6 GB    disk1
+                                 Physical Store disk0s4
+   1:                APFS Volume backup                  68.7 GB    disk1s1
+   2:                APFS Volume Preboot                 46.4 MB    disk1s2
+   3:                APFS Volume Recovery                516.5 MB   disk1s3
+   4:                APFS Volume VM                      2.1 GB     disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +104.9 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume storage                 69.4 GB    disk2s1
+   2:                APFS Volume Preboot                 93.1 MB    disk2s2
+   3:                APFS Volume Recovery                1.6 GB     disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+
+Target volume /Volumes/storage on disk2 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/storage/EFIROOTDIR/EFI folder to /Volumes/storage/EFI-Backups/r4674/2019-10-09-15h05/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
