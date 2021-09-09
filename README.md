@@ -1,1 +1,0 @@
-# EFI setup for ASUS ROG STRIX Z370-G (Intel I7-8700K + HyperX DDR4-3200)
